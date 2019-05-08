@@ -1,0 +1,65 @@
+2019-04-17 18:00:05,613 macbook-pro-3 getting-started-1.0-SNAPSHOT-runner.jar[35399] DEBUG [org.xnio] (main) XNIO version 3.7.0.Final
+2019-04-17 18:00:05,633 macbook-pro-3 getting-started-1.0-SNAPSHOT-runner.jar[35399] DEBUG [org.xni.nio] (main) XNIO NIO Implementation Version 3.7.0.Final
+2019-04-17 18:00:05,722 macbook-pro-3 getting-started-1.0-SNAPSHOT-runner.jar[35399] DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.0.Alpha4
+2019-04-17 18:00:05,791 macbook-pro-3 getting-started-1.0-SNAPSHOT-runner.jar[35399] INFO  [io.quarkus] (main) Quarkus 0.12.0 started in 0.844s. Listening on: http://[::]:8080
+2019-04-17 18:00:05,794 macbook-pro-3 getting-started-1.0-SNAPSHOT-runner.jar[35399] INFO  [io.quarkus] (main) Installed features: [cdi, resteasy, resteasy-jsonb, smallrye-reactive-streams-operators]
+2019-04-17 18:00:10,665 macbook-pro-3 getting-started-1.0-SNAPSHOT-runner.jar[35399] INFO  [io.quarkus] (main) Quarkus stopped in 0.015s
+2019-04-17 18:00:12,466 macbook-pro-3 getting-started-1.0-SNAPSHOT-runner.jar[35410] DEBUG [org.xnio] (main) XNIO version 3.7.0.Final
+2019-04-17 18:00:12,489 macbook-pro-3 getting-started-1.0-SNAPSHOT-runner.jar[35410] DEBUG [org.xni.nio] (main) XNIO NIO Implementation Version 3.7.0.Final
+2019-04-17 18:00:12,578 macbook-pro-3 getting-started-1.0-SNAPSHOT-runner.jar[35410] DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.0.Alpha4
+2019-04-17 18:00:12,655 macbook-pro-3 getting-started-1.0-SNAPSHOT-runner.jar[35410] INFO  [io.quarkus] (main) Quarkus 0.12.0 started in 0.873s. Listening on: http://[::]:8080
+2019-04-17 18:00:12,658 macbook-pro-3 getting-started-1.0-SNAPSHOT-runner.jar[35410] INFO  [io.quarkus] (main) Installed features: [cdi, resteasy, resteasy-jsonb, smallrye-reactive-streams-operators]
+2019-04-17 18:00:15,090 macbook-pro-3 getting-started-1.0-SNAPSHOT-runner.jar[35410] INFO  [io.quarkus] (main) Quarkus stopped in 0.016s
+2019-04-17 18:00:16,638 macbook-pro-3 getting-started-1.0-SNAPSHOT-runner.jar[35418] DEBUG [org.xnio] (main) XNIO version 3.7.0.Final
+2019-04-17 18:00:16,659 macbook-pro-3 getting-started-1.0-SNAPSHOT-runner.jar[35418] DEBUG [org.xni.nio] (main) XNIO NIO Implementation Version 3.7.0.Final
+2019-04-17 18:00:16,748 macbook-pro-3 getting-started-1.0-SNAPSHOT-runner.jar[35418] DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.0.Alpha4
+2019-04-17 18:00:16,831 macbook-pro-3 getting-started-1.0-SNAPSHOT-runner.jar[35418] INFO  [io.quarkus] (main) Quarkus 0.12.0 started in 0.853s. Listening on: http://[::]:8080
+2019-04-17 18:00:16,837 macbook-pro-3 getting-started-1.0-SNAPSHOT-runner.jar[35418] INFO  [io.quarkus] (main) Installed features: [cdi, resteasy, resteasy-jsonb, smallrye-reactive-streams-operators]
+2019-04-17 18:00:25,785 macbook-pro-3 getting-started-1.0-SNAPSHOT-runner.jar[35418] ERROR [org.jbo.res.res.i18n] (RxComputationThreadPool-1) RESTEASY002030: Failed to write event org.jboss.resteasy.plugins.providers.sse.OutboundSseEventImpl@60403d5e: java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.writev0(Native Method)
+	at sun.nio.ch.SocketDispatcher.writev(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:148)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:504)
+	at org.xnio.nio.NioSocketConduit.write(NioSocketConduit.java:162)
+	at io.undertow.server.protocol.http.HttpResponseConduit.write(HttpResponseConduit.java:647)
+	at io.undertow.conduits.ChunkedStreamSinkConduit.doWrite(ChunkedStreamSinkConduit.java:166)
+	at io.undertow.conduits.ChunkedStreamSinkConduit.write(ChunkedStreamSinkConduit.java:128)
+	at org.xnio.conduits.ConduitStreamSinkChannel.write(ConduitStreamSinkChannel.java:150)
+	at io.undertow.channels.DetachableStreamSinkChannel.write(DetachableStreamSinkChannel.java:240)
+	at io.undertow.server.HttpServerExchange$WriteDispatchChannel.write(HttpServerExchange.java:2103)
+	at io.undertow.servlet.spec.ServletOutputStreamImpl.writeBufferBlocking(ServletOutputStreamImpl.java:574)
+	at io.undertow.servlet.spec.ServletOutputStreamImpl.flushInternal(ServletOutputStreamImpl.java:489)
+	at io.undertow.servlet.spec.ServletOutputStreamImpl.flush(ServletOutputStreamImpl.java:476)
+	at io.undertow.servlet.spec.HttpServletResponseImpl.flushBuffer(HttpServletResponseImpl.java:468)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletResponseWrapper.flushBuffer(HttpServletResponseWrapper.java:124)
+	at org.jboss.resteasy.plugins.providers.sse.SseEventOutputImpl.writeEvent(SseEventOutputImpl.java:264)
+	at org.jboss.resteasy.plugins.providers.sse.SseEventOutputImpl.send(SseEventOutputImpl.java:199)
+	at org.jboss.resteasy.core.AsyncResponseConsumer$AsyncGeneralStreamingSseResponseConsumer.sendBuiltResponse(AsyncResponseConsumer.java:544)
+	at org.jboss.resteasy.core.AsyncResponseConsumer.internalResume(AsyncResponseConsumer.java:113)
+	at org.jboss.resteasy.core.AsyncResponseConsumer$AsyncStreamResponseConsumer.addNextElement(AsyncResponseConsumer.java:290)
+	at org.jboss.resteasy.core.AsyncResponseConsumer$AsyncGeneralStreamingSseResponseConsumer.addNextElement(AsyncResponseConsumer.java:483)
+	at org.jboss.resteasy.core.AsyncResponseConsumer$AsyncStreamResponseConsumer.onNext(AsyncResponseConsumer.java:299)
+	at io.reactivex.internal.util.HalfSerializer.onNext(HalfSerializer.java:45)
+	at io.reactivex.internal.subscribers.StrictSubscriber.onNext(StrictSubscriber.java:97)
+	at io.reactivex.internal.operators.flowable.FlowableMap$MapSubscriber.onNext(FlowableMap.java:68)
+	at io.reactivex.internal.operators.flowable.FlowableMap$MapSubscriber.onNext(FlowableMap.java:68)
+	at io.reactivex.internal.operators.flowable.FlowableInterval$IntervalSubscriber.run(FlowableInterval.java:93)
+	at io.reactivex.internal.schedulers.ScheduledDirectPeriodicTask.run(ScheduledDirectPeriodicTask.java:38)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-04-17 18:01:41,748 macbook-pro-3 getting-started-1.0-SNAPSHOT-runner.jar[35418] INFO  [io.quarkus] (main) Quarkus stopped in 0.006s
+2019-04-26 13:05:20,851 172-0-9-52 getting-started-1.0-SNAPSHOT-runner.jar[1945] DEBUG [org.xnio] (main) XNIO version 3.7.0.Final
+2019-04-26 13:05:20,872 172-0-9-52 getting-started-1.0-SNAPSHOT-runner.jar[1945] DEBUG [org.xni.nio] (main) XNIO NIO Implementation Version 3.7.0.Final
+2019-04-26 13:05:20,958 172-0-9-52 getting-started-1.0-SNAPSHOT-runner.jar[1945] DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.0.Alpha4
+2019-04-26 13:05:45,941 172-0-9-52 getting-started-1.0-SNAPSHOT-runner.jar[1967] DEBUG [org.xnio] (main) XNIO version 3.7.0.Final
+2019-04-26 13:05:45,963 172-0-9-52 getting-started-1.0-SNAPSHOT-runner.jar[1967] DEBUG [org.xni.nio] (main) XNIO NIO Implementation Version 3.7.0.Final
+2019-04-26 13:05:46,061 172-0-9-52 getting-started-1.0-SNAPSHOT-runner.jar[1967] DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.0.Alpha4
+2019-04-26 13:05:46,139 172-0-9-52 getting-started-1.0-SNAPSHOT-runner.jar[1967] INFO  [io.quarkus] (main) Quarkus 0.12.0 started in 0.829s. Listening on: http://[::]:8080
+2019-04-26 13:05:46,142 172-0-9-52 getting-started-1.0-SNAPSHOT-runner.jar[1967] INFO  [io.quarkus] (main) Installed features: [cdi, resteasy, resteasy-jsonb, smallrye-reactive-streams-operators]
+2019-04-26 13:05:51,779 172-0-9-52 getting-started-1.0-SNAPSHOT-runner.jar[1967] INFO  [io.quarkus] (main) Quarkus stopped in 0.012s

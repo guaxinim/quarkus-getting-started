@@ -1,0 +1,40 @@
+2019-04-17 17:59:15,360 macbook-pro-3 surefirebooter489362074468322321.jar[35332] INFO  [io.qua.dep.QuarkusAugmentor] (main) Beginning quarkus augmentation
+2019-04-17 17:59:15,546 macbook-pro-3 surefirebooter489362074468322321.jar[35332] DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.0.Alpha4
+2019-04-17 17:59:16,293 macbook-pro-3 surefirebooter489362074468322321.jar[35332] INFO  [io.qua.dep.QuarkusAugmentor] (main) Quarkus augmentation completed in 933ms
+2019-04-17 17:59:16,746 macbook-pro-3 surefirebooter489362074468322321.jar[35332] DEBUG [org.xnio] (main) XNIO version 3.7.0.Final
+2019-04-17 17:59:16,767 macbook-pro-3 surefirebooter489362074468322321.jar[35332] DEBUG [org.xni.nio] (main) XNIO NIO Implementation Version 3.7.0.Final
+2019-04-17 17:59:16,891 macbook-pro-3 surefirebooter489362074468322321.jar[35332] INFO  [io.quarkus] (main) Quarkus 0.12.0 started in 0.575s. Listening on: http://[::]:8081
+2019-04-17 17:59:16,891 macbook-pro-3 surefirebooter489362074468322321.jar[35332] INFO  [io.quarkus] (main) Installed features: [cdi, resteasy, resteasy-jsonb, smallrye-reactive-streams-operators]
+2019-04-17 17:59:19,106 macbook-pro-3 surefirebooter489362074468322321.jar[35332] INFO  [io.quarkus] (main) Quarkus stopped in 0.059s
+2019-04-26 13:04:33,857 172-0-9-52 surefirebooter5710868093177123985.jar[1906] INFO  [io.qua.dep.QuarkusAugmentor] (main) Beginning quarkus augmentation
+2019-04-26 13:04:34,108 172-0-9-52 surefirebooter5710868093177123985.jar[1906] DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.0.Alpha4
+2019-04-26 13:04:35,543 172-0-9-52 surefirebooter5710868093177123985.jar[1906] INFO  [io.qua.dep.QuarkusAugmentor] (main) Quarkus augmentation completed in 1686ms
+2019-04-26 13:04:35,991 172-0-9-52 surefirebooter5710868093177123985.jar[1906] DEBUG [org.xnio] (main) XNIO version 3.7.0.Final
+2019-04-26 13:04:36,010 172-0-9-52 surefirebooter5710868093177123985.jar[1906] DEBUG [org.xni.nio] (main) XNIO NIO Implementation Version 3.7.0.Final
+2019-04-26 13:04:36,135 172-0-9-52 surefirebooter5710868093177123985.jar[1906] INFO  [io.quarkus] (main) Quarkus 0.12.0 started in 0.569s. Listening on: http://[::]:8081
+2019-04-26 13:04:36,136 172-0-9-52 surefirebooter5710868093177123985.jar[1906] INFO  [io.quarkus] (main) Installed features: [cdi, resteasy, resteasy-jsonb, smallrye-reactive-streams-operators]
+2019-04-26 13:04:38,028 172-0-9-52 surefirebooter5710868093177123985.jar[1906] INFO  [io.quarkus] (main) Quarkus stopped in 0.009s
+2019-04-26 13:07:23,097 172-0-9-52 surefirebooter3054306717032523952.jar[2008] INFO  [io.qua.dep.QuarkusAugmentor] (main) Beginning quarkus augmentation
+2019-04-26 13:07:23,256 172-0-9-52 surefirebooter3054306717032523952.jar[2008] DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.0.Alpha4
+2019-04-26 13:07:23,909 172-0-9-52 surefirebooter3054306717032523952.jar[2008] INFO  [io.qua.dep.QuarkusAugmentor] (main) Quarkus augmentation completed in 812ms
+2019-04-26 13:07:24,258 172-0-9-52 surefirebooter3054306717032523952.jar[2008] DEBUG [org.xnio] (main) XNIO version 3.7.0.Final
+2019-04-26 13:07:24,276 172-0-9-52 surefirebooter3054306717032523952.jar[2008] DEBUG [org.xni.nio] (main) XNIO NIO Implementation Version 3.7.0.Final
+2019-04-26 13:07:24,393 172-0-9-52 surefirebooter3054306717032523952.jar[2008] INFO  [io.quarkus] (main) Quarkus 0.12.0 started in 0.464s. Listening on: http://[::]:8081
+2019-04-26 13:07:24,393 172-0-9-52 surefirebooter3054306717032523952.jar[2008] INFO  [io.quarkus] (main) Installed features: [cdi, resteasy, resteasy-jsonb, smallrye-reactive-streams-operators]
+2019-04-26 13:07:27,356 172-0-9-52 surefirebooter3054306717032523952.jar[2008] INFO  [io.quarkus] (main) Quarkus stopped in 0.054s
+2019-04-26 15:53:13,275 172-0-9-52 surefirebooter6269067233758898064.jar[5567] INFO  [io.qua.dep.QuarkusAugmentor] (main) Beginning quarkus augmentation
+2019-04-26 15:53:13,487 172-0-9-52 surefirebooter6269067233758898064.jar[5567] DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.0.Alpha4
+2019-04-26 15:53:14,267 172-0-9-52 surefirebooter6269067233758898064.jar[5567] INFO  [io.qua.dep.QuarkusAugmentor] (main) Quarkus augmentation completed in 992ms
+2019-04-26 15:53:14,717 172-0-9-52 surefirebooter6269067233758898064.jar[5567] DEBUG [org.xnio] (main) XNIO version 3.7.0.Final
+2019-04-26 15:53:14,746 172-0-9-52 surefirebooter6269067233758898064.jar[5567] DEBUG [org.xni.nio] (main) XNIO NIO Implementation Version 3.7.0.Final
+2019-04-26 15:53:14,857 172-0-9-52 surefirebooter6269067233758898064.jar[5567] INFO  [io.quarkus] (main) Quarkus 0.12.0 started in 0.572s. Listening on: http://[::]:8081
+2019-04-26 15:53:14,858 172-0-9-52 surefirebooter6269067233758898064.jar[5567] INFO  [io.quarkus] (main) Installed features: [cdi, resteasy, resteasy-jsonb, smallrye-reactive-streams-operators]
+2019-04-26 15:53:16,835 172-0-9-52 surefirebooter6269067233758898064.jar[5567] INFO  [io.quarkus] (main) Quarkus stopped in 0.010s
+2019-04-26 15:54:34,741 172-0-9-52 surefirebooter3595749978415268284.jar[5634] INFO  [io.qua.dep.QuarkusAugmentor] (main) Beginning quarkus augmentation
+2019-04-26 15:54:35,018 172-0-9-52 surefirebooter3595749978415268284.jar[5634] DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.0.Alpha4
+2019-04-26 15:54:36,177 172-0-9-52 surefirebooter3595749978415268284.jar[5634] INFO  [io.qua.dep.QuarkusAugmentor] (main) Quarkus augmentation completed in 1436ms
+2019-04-26 15:54:37,352 172-0-9-52 surefirebooter3595749978415268284.jar[5634] DEBUG [org.xnio] (main) XNIO version 3.7.0.Final
+2019-04-26 15:54:37,382 172-0-9-52 surefirebooter3595749978415268284.jar[5634] DEBUG [org.xni.nio] (main) XNIO NIO Implementation Version 3.7.0.Final
+2019-04-26 15:54:37,558 172-0-9-52 surefirebooter3595749978415268284.jar[5634] INFO  [io.quarkus] (main) Quarkus 0.12.0 started in 1.345s. Listening on: http://[::]:8081
+2019-04-26 15:54:37,560 172-0-9-52 surefirebooter3595749978415268284.jar[5634] INFO  [io.quarkus] (main) Installed features: [cdi, resteasy, resteasy-jsonb, smallrye-reactive-streams-operators]
+2019-04-26 15:54:40,462 172-0-9-52 surefirebooter3595749978415268284.jar[5634] INFO  [io.quarkus] (main) Quarkus stopped in 0.053s
